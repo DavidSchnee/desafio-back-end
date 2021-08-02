@@ -2887,3 +2887,308 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.9ms | Allocations: 5289)
 
 
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:23:22 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 347)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 55.5ms | Allocations: 5311)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.9ms | Allocations: 6405)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: font-awesome.
+        on line 1:1 of app/assets/stylesheets/application.scss
+>> @import "font-awesome";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:9
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:25:02 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 347)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 4465)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 1.0ms | Allocations: 5544)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: font-awesome-sprockets.
+        on line 1:1 of app/assets/stylesheets/application.scss
+>> @import "font-awesome-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:9
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:25:13 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 957)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 20.2ms | Allocations: 5382)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/maino/Documentos/desafio-back-end/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 76627248d92c22e9aa99
+Version: webpack 4.46.0
+Time: 946ms
+Built at: 2021-08-02 6:25:27 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1de923abdc62e6b976f0.js    125 KiB  application  [emitted] [immutable]  application
+js/application-1de923abdc62e6b976f0.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-1de923abdc62e6b976f0.js js/application-1de923abdc62e6b976f0.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 588 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 13711.6ms | Allocations: 195056)
+Completed 200 OK in 13748ms (Views: 13715.3ms | ActiveRecord: 13.5ms | Allocations: 209115)
+
+
+Started POST "/users/auth/facebook" for ::1 at 2021-08-02 18:25:31 -0300
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:25:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 347)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 9346)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 1.0ms | Allocations: 10490)
+
+
+Started POST "/users/auth/github" for ::1 at 2021-08-02 18:25:34 -0300
+Started GET "/users/auth/github/callback?code=43c2fafee63cce3b2d28&state=9b82f3e1df7bb69a98b1e1f843756cdadc1f11f765243266" for ::1 at 2021-08-02 18:25:35 -0300
+Processing by OmniauthController#github as HTML
+  Parameters: {"code"=>"43c2fafee63cce3b2d28", "state"=>"9b82f3e1df7bb69a98b1e1f843756cdadc1f11f765243266"}
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "github"], ["uid", "48518981"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `create_from_provider_data'
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 3.2ms | Allocations: 1405)
+
+
+Started GET "/" for ::1 at 2021-08-02 18:25:37 -0300
+Processing by DashboardsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering dashboards/index.html.erb within layouts/application
+  Rendered dashboards/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 204)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 8540)
+Completed 200 OK in 19ms (Views: 12.8ms | ActiveRecord: 1.7ms | Allocations: 11322)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-08-02 18:25:39 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 27ms (ActiveRecord: 16.1ms | Allocations: 5115)
+
+
+Started GET "/" for ::1 at 2021-08-02 18:25:39 -0300
+Processing by DashboardsController#index as HTML
+Completed 401 Unauthorized in 4ms (ActiveRecord: 1.1ms | Allocations: 702)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:25:39 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 347)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 9405)
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.9ms | Allocations: 10521)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:27:13 -0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 950)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5375)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/maino/Documentos/desafio-back-end/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 598f4ffc246f0c1aeeba
+Version: webpack 4.46.0
+Time: 781ms
+Built at: 2021-08-02 6:27:29 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-85f610a3b44399aa93d7.js    125 KiB  application  [emitted] [immutable]  application
+js/application-85f610a3b44399aa93d7.js.map    139 KiB  application  [emitted] [dev]        application
+       js/template-38a97390dafa0ef84ed4.js   6.35 KiB     template  [emitted] [immutable]  template
+   js/template-38a97390dafa0ef84ed4.js.map   6.89 KiB     template  [emitted] [dev]        template
+                             manifest.json  682 bytes               [emitted]              
+Entrypoint application = js/application-85f610a3b44399aa93d7.js js/application-85f610a3b44399aa93d7.js.map
+Entrypoint template = js/template-38a97390dafa0ef84ed4.js js/template-38a97390dafa0ef84ed4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 609 bytes {application} [built]
+[./app/javascript/packs/template.js] 2.47 KiB {template} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 16069.5ms | Allocations: 256866)
+Completed 200 OK in 16106ms (Views: 16073.7ms | ActiveRecord: 12.8ms | Allocations: 270925)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Regular.otf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Medium.otf"):
+  
+Started POST "/users/auth/github" for ::1 at 2021-08-02 18:27:35 -0300
+Started GET "/users/auth/github/callback?code=29eb3520d4027e56f061&state=006dffcd080c49421f34a3c9ecaffd7d5690658e36f2ab86" for ::1 at 2021-08-02 18:27:36 -0300
+Processing by OmniauthController#github as HTML
+  Parameters: {"code"=>"29eb3520d4027e56f061", "state"=>"006dffcd080c49421f34a3c9ecaffd7d5690658e36f2ab86"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "github"], ["uid", "48518981"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `create_from_provider_data'
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 3.1ms | Allocations: 1405)
+
+
+Started GET "/" for ::1 at 2021-08-02 18:27:39 -0300
+Processing by DashboardsController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering dashboards/index.html.erb within layouts/application
+  Rendered dashboards/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 8466)
+Completed 200 OK in 18ms (Views: 12.5ms | ActiveRecord: 1.7ms | Allocations: 11250)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Medium.otf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Regular.otf"):
+  
+Started DELETE "/users/sign_out" for ::1 at 2021-08-02 18:27:41 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 31ms (ActiveRecord: 15.4ms | Allocations: 7611)
+
+
+Started GET "/" for ::1 at 2021-08-02 18:27:41 -0300
+Processing by DashboardsController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 1.1ms | Allocations: 702)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:27:41 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 347)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 9571)
+Completed 200 OK in 18ms (Views: 15.0ms | ActiveRecord: 0.8ms | Allocations: 10688)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Medium.otf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Regular.otf"):
+  
+Started POST "/users/auth/google_oauth2" for ::1 at 2021-08-02 18:27:43 -0300
+Started GET "/users/auth/google_oauth2/callback?state=2d224c43911457f4646d38966b1b260e93c9c6cb7dfed614&code=4/0AX4XfWiXomMwuRjzzris7TFspHo-ENPe2zRgw2xn6FKnRiibahVzrUGtv6qBRmhmaXH9sg&scope=email%20profile%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile%20openid&authuser=1&hd=maino.com.br&prompt=none" for ::1 at 2021-08-02 18:27:46 -0300
+Processing by OmniauthController#google_oauth2 as HTML
+  Parameters: {"state"=>"2d224c43911457f4646d38966b1b260e93c9c6cb7dfed614", "code"=>"4/0AX4XfWiXomMwuRjzzris7TFspHo-ENPe2zRgw2xn6FKnRiibahVzrUGtv6qBRmhmaXH9sg", "scope"=>"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid", "authuser"=>"1", "hd"=>"maino.com.br", "prompt"=>"none"}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."provider" = $1 AND "users"."uid" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["provider", "google_oauth2"], ["uid", "109102184683441785128"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `create_from_provider_data'
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.4ms | Allocations: 997)
+
+
+Started GET "/" for ::1 at 2021-08-02 18:27:46 -0300
+Processing by DashboardsController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering dashboards/index.html.erb within layouts/application
+  Rendered dashboards/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 8285)
+Completed 200 OK in 23ms (Views: 15.9ms | ActiveRecord: 2.2ms | Allocations: 10334)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Medium.otf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Regular.otf"):
+  
+Started DELETE "/users/sign_out" for ::1 at 2021-08-02 18:27:51 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 27ms (ActiveRecord: 16.7ms | Allocations: 4632)
+
+
+Started GET "/" for ::1 at 2021-08-02 18:27:51 -0300
+Processing by DashboardsController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 1.2ms | Allocations: 675)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-08-02 18:27:51 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 347)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1209)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 9423)
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 1.0ms | Allocations: 10537)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Medium.otf"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/metropolis/Metropolis-Regular.otf"):
+  

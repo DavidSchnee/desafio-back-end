@@ -12,6 +12,8 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-/*
-*= require font-awesome
-*/
+//= require font-awesome
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+//= require template

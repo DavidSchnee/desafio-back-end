@@ -25,7 +25,9 @@ gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'activerecord-session_store'
 gem 'omniauth-rails_csrf_protection' 
-gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 5.15.1'
+gem 'bootstrap', '~> 5.0.1'
+gem 'jquery-rails'
 
 
 gem 'pry'
